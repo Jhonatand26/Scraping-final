@@ -1,0 +1,11 @@
+[project]
+name = "experimento"
+version = "0.1.0"
+description = "Web scraper for Fundación Valle del Lili sitemap"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "scrapling[fetchers]",
+    "markdownify>=0.14.1",
+    "lxml>=5.0.0",
+]
